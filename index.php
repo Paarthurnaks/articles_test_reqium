@@ -25,7 +25,6 @@
         method: 'POST',
         data: `category= ${data}`,
         success: function (response) {
-            console.log(response);
             // Response values:
             // response === ‘end’ - нет статей в заданной категории
             // response : [ {title: ‘article_title’, description: ‘article_description’, image: ‘article_image’
